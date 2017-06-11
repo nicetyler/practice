@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="practice_development@localhost" uuid="ed74359a-8976-4470-a3ea-3e4349e93982">
+    <data-source name="Rails practice: test" uuid="acebd26c-89ce-4ffe-a46a-8b9791466bcf">
       <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
-      <secret-storage>master_key</secret-storage>
       <first-sync>true</first-sync>
       <user-name>root</user-name>
+    </data-source>
+    <data-source name="Rails practice: development" uuid="a6ec91c7-8489-40f5-97bb-25f692fd16ad">
+      <database-info product="MySQL" version="5.6.23" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.40 ( Revision: 402933ef52cad9aa82624e80acbea46e3a701ce6 )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-schemas>*:practice_development</introspection-schemas>
+    </data-source>
+    <data-source name="Rails practice: production" uuid="50331470-f677-4319-ac62-89121a548ef4">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <first-sync>true</first-sync>
+      <user-name>practice</user-name>
     </data-source>
   </component>
 </project>
